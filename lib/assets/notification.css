@@ -1,13 +1,13 @@
 html, body {
   overflow: hidden;
   background: rgba(0, 0, 0, 0);
-  color: #fff;
+  color: rgb(41, 41, 41);
   margin: 0;
   padding: 0;
 }
 
 a {
-  color: #fff;
+  color: rgb(41, 41, 41);
 }
 
 #notification {
@@ -16,8 +16,8 @@ a {
   margin: 0;
   position: relative;
   font-family: Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(rgba(120, 119, 119, 0.95), rgba(75, 74, 74, 0.95));
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-image: rgba(240, 240, 240, 0.95);
+  border-radius: 2px;
   box-sizing: border-box;
   -webkit-app-region: drag;
   -webkit-user-select: none;
@@ -91,7 +91,7 @@ a {
   position: relative;
 }
 #notification.horizontal #buttons {
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(201, 201, 201);
   box-shadow: inset 1px 0 rgba(255, 255, 255, 0.4);
 }
 #notification.vertical #buttons {
@@ -109,7 +109,7 @@ a {
   width: 100%;
   height: 40px;
   line-height: 40px;
-  border-top: 1px solid black;
+  border-top: 1px solid rgb(201, 201, 201);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.4);
 }
 #notification.double #buttons a {
@@ -117,7 +117,7 @@ a {
   line-height: 40px;
 }
 #notification.double.horizontal #buttons a:nth-child(2) {
-  border-top: 1px solid black;
+  border-top: 1px solid rgb(201, 201, 201);;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.4);
 }
 #notification.double #buttons a:nth-child(2) {
