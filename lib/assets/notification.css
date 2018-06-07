@@ -116,6 +116,18 @@ a {
   height: 40px;
   line-height: 40px;
 }
+
+#notification.double #buttons a:first-child {
+  background: #3f9b44;
+  color: white;
+}
+
+#notification.double #buttons a:last-child {
+  background: #eb0000;
+  color: white;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
 #notification.double.horizontal #buttons a:nth-child(2) {
   border-top: 1px solid rgb(201, 201, 201);;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.4);
